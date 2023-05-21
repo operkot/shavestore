@@ -1,9 +1,9 @@
-import React, { FC } from 'react'
+import { FC, ReactNode } from 'react'
 import cn from 'classnames'
 
 interface LayoutBaseProps {
   className?: string
-  children: React.ReactNode
+  children: ReactNode
 }
 
 export const LayoutBase: FC<LayoutBaseProps> = ({ className, children }) => {
