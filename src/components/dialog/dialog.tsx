@@ -32,7 +32,7 @@ export const Dialog: FC<DialogProps> = ({ children, isOpen, onClose }) => {
 
             {/* DIALOG CONTENT */}
             <motion.div
-              className="relative z-2 flex flex-col w-full max-w-3xl max-h-[95vh] mt-auto mx-auto p-4 rounded-t-2xl bg-white"
+              className="relative z-2 flex flex-col w-full max-w-3xl h-[80vh] max-h-[95vh] mt-auto mx-auto p-4 rounded-t-2xl bg-white"
               initial={{ transform: 'translateY(100%)' }}
               animate={{
                 transform: 'translateY(0)',
